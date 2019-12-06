@@ -40,37 +40,6 @@ public class Tester extends Thread{
 
                     }
 
-                    /*
-                    if(numAciertos==5){
-                        try {
-
-                            //nombre del cliente
-                            int punt=p.getFileName().toString().lastIndexOf(".");
-                            String client=p.getFileName().toString().substring(0,punt);
-                            //donde guardaré fichero de coicnidencias 15
-                            BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Carol\\IdeaProjects\\M09Threads\\ThreadQuiniela\\src\\resultatQuinieles\\15_encerts.csv",true));
-                            bw.write("client: "+client+"-->"+q.toString()+"\n");
-                            bw.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }else if(numAciertos==4){
-                        try {
-
-                            //nombre del cliente
-                            int punt=p.getFileName().toString().lastIndexOf(".");
-                            String client=p.getFileName().toString().substring(0,punt);
-                            //donde guardaré fichero de coicnidencias 15
-                            BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Carol\\IdeaProjects\\M09Threads\\ThreadQuiniela\\src\\resultatQuinieles\\14_encerts.csv"));
-                            bw.write("client: "+client+"-->"+q.toString()+"\n");
-                            bw.close();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-
-                    */
-
                 }
 
             } catch (FileNotFoundException e) {
